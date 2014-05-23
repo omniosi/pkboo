@@ -1,0 +1,38 @@
+#container{
+	max-width:960px;
+	margin: 0 auto;
+}
+// top nav
+header{
+	max-width:960px;
+
+	#header_container{
+		nav{
+			display: inline-block;
+			// float: left;
+			position: relative;
+			top: 10px;
+			left: 10px;
+			height: 25px;
+
+			ul{
+
+				li{
+					display: inline-block;
+					float: left;
+					margin: 0 2px 0 0;
+
+					&#plus{ display: none;	}
+					a{
+
+						&.first{
+							width: 120px;
+							-moz-border-bottom-left-radius:0px; 
+												border-bottom-left-radius:0px; 							
+						}
+					}
+				}
+			}
+		}
+	}
+}

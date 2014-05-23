@@ -20,9 +20,7 @@ a {
     color: white; }
 
 #container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto; }
+  width: 100%; }
 
 header {
   position: fixed;
@@ -61,38 +59,30 @@ header {
       header #header_container #logo a {
         background: none; }
     header #header_container nav {
-      display: inline-block;
-      position: relative;
-      top: 10px;
-      left: 10px;
-      height: 25px;
       font-weight: bold; }
-      header #header_container nav ul li {
-        display: inline-block;
-        float: left;
-        margin: 0 2px 0 0; }
-        header #header_container nav ul li a {
-          background: #3f201b;
-          color: #f1e5d5;
-          text-decoration: none;
-          padding: 10px 20px;
-          font-size: 16px;
-          -moz-border-bottom-left-radius: 12px;
-          -moz-border-bottom-right-radius: 12px;
-          border-bottom-left-radius: 12px;
-          border-bottom-right-radius: 12px; }
-          header #header_container nav ul li a.first {
-            width: 120px;
-            -moz-border-bottom-left-radius: 0px;
-            border-bottom-left-radius: 0px; }
-          header #header_container nav ul li a:hover, header #header_container nav ul li a:focus {
-            color: #fff;
-            background: #9fcecb; }
-          header #header_container nav ul li a.active {
-            background: #9fcecb;
-            color: #3f201b; }
-            header #header_container nav ul li a.active:hover, header #header_container nav ul li a.active:focus {
-              color: #fff; }
+      header #header_container nav ul li#plus a {
+        -moz-border-top-right-radius: 20px;
+        -moz-border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
+      header #header_container nav ul li a {
+        background: #3f201b;
+        color: #f1e5d5;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        -moz-border-bottom-left-radius: 12px;
+        -moz-border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px; }
+        header #header_container nav ul li a:hover, header #header_container nav ul li a:focus {
+          color: #fff;
+          background: #9fcecb; }
+        header #header_container nav ul li a.active {
+          background: #9fcecb;
+          color: #3f201b; }
+          header #header_container nav ul li a.active:hover, header #header_container nav ul li a.active:focus {
+            color: #fff; }
     header #header_container #cart {
       position: relative;
       margin-right: 25px;
@@ -126,5 +116,29 @@ header {
         border-bottom-right-radius: 12px; }
         header #header_container #checkout a:hover, header #header_container #checkout a:focus {
           color: #fff; }
+
+@media (min-width: 700px) {
+  #container {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  header {
+    max-width: 960px; }
+    header #header_container nav {
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      left: 10px;
+      height: 25px; }
+      header #header_container nav ul li {
+        display: inline-block;
+        float: left;
+        margin: 0 2px 0 0; }
+        header #header_container nav ul li#plus {
+          display: none; }
+        header #header_container nav ul li a.first {
+          width: 120px;
+          -moz-border-bottom-left-radius: 0px;
+          border-bottom-left-radius: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
