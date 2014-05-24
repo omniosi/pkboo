@@ -26,6 +26,15 @@ a {
 #container {
   width: 100%; }
 
+.moreless {
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Lusitana", serif;
+  font-weight: bold;
+  cursor: pointer; }
+  .moreless:hover, .moreless:focus {
+    color: #9fcecb; }
+
 header {
   position: fixed;
   top: 0;
@@ -152,6 +161,30 @@ header {
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px; }
 
+#content_container {
+  margin: 75px auto 0;
+  background: #fff; }
+  #content_container #contentL,
+  #content_container #contentR {
+    display: inline-block;
+    vertical-align: top; }
+  #content_container #contentL {
+    padding: 30px 10px 10px; }
+    #content_container #contentL h1 {
+      font-family: "Lusitana", serif;
+      letter-spacing: -1.125px;
+      text-align: center; }
+    #content_container #contentL h2 {
+      font-family: "Lusitana", serif;
+      letter-spacing: -1.125px; }
+    #content_container #contentL p {
+      padding: 10px;
+      line-height: 1.25em; }
+    #content_container #contentL a {
+      padding: 10px; }
+      #content_container #contentL a:hover, #content_container #contentL a:focus {
+        color: #3f201b; }
+
 @media (min-width: 700px) {
   #container {
     max-width: 960px;
@@ -219,6 +252,9 @@ header {
         -moz-border-bottom-left-radius: 0px;
         -moz-border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px; } }
+        border-bottom-right-radius: 0px; }
+
+  #content_container #contentL {
+    padding: 70px 0 0 60px; } }
 
 /*# sourceMappingURL=style.css.map */
