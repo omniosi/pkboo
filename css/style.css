@@ -206,6 +206,36 @@ header {
           font-weight: bold;
           display: block; }
 
+footer {
+  padding: 20px 10px;
+  background: #fff;
+  -moz-border-bottom-left-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+  font-size: 0.9em; }
+  footer ul li {
+    text-align: center;
+    display: inline-block; }
+    footer ul li a {
+      padding: 10px; }
+  footer ul#legal li {
+    width: 49%; }
+  footer ul#contact {
+    padding-top: 20px; }
+    footer ul#contact #copyright {
+      padding: 0 0 20px;
+      display: block; }
+    footer ul#contact li {
+      padding: 0 20px; }
+      footer ul#contact li a {
+        padding: 0;
+        font-size: 2em; }
+        footer ul#contact li a:hover, footer ul#contact li a:focus {
+          background: #fff;
+          color: #9fcecb; }
+
 @media (min-width: 700px) {
   #container {
     max-width: 960px;
@@ -286,6 +316,32 @@ header {
     padding: 50px 0 0 60px;
     width: 60%; }
     #content_container #contentR p.caption .name {
-      display: inline; } }
+      display: inline; }
+
+  footer {
+    padding: 10px 20px; }
+    footer ul {
+      display: inline-block; }
+      footer ul li {
+        text-align: left; }
+        footer ul li a {
+          padding: 3px 7px; }
+      footer ul#legal {
+        font-size: 0.9em; }
+        footer ul#legal li {
+          width: auto;
+          border-right: 1px solid #3f201b; }
+          footer ul#legal li.last {
+            border-right: none; }
+      footer ul#contact {
+        padding-top: 0;
+        padding-left: 5%; }
+        footer ul#contact #copyright {
+          display: inline-block;
+          font-size: 0.8em; }
+        footer ul#contact li {
+          padding: 0 3px; }
+          footer ul#contact li a {
+            font-size: 1.75em; } }
 
 /*# sourceMappingURL=style.css.map */

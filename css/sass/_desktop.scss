@@ -115,3 +115,48 @@ header{
 		}
 	}
 }
+// footer
+footer{
+	padding: 10px 20px;
+
+	ul{
+		display: inline-block;
+
+		li{
+			text-align: left;
+
+			a{
+				padding: 3px 7px;
+			}
+		}
+		&#legal{
+			font-size: 0.9em;
+
+			li{
+				width: auto;
+				border-right: 1px solid $brown;
+
+				&.last{
+					border-right: none;
+				}
+			}
+		}
+		&#contact{
+			padding-top: 0;
+			// float: right;
+			padding-left: 5%;
+
+			#copyright{
+				display: inline-block;
+				font-size: 0.8em;
+			}
+			li{
+				padding: 0 3px;
+
+				a{
+					font-size: 1.75em;
+				}
+			}
+		}
+	}
+}
