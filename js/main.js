@@ -10,7 +10,8 @@ moreless.addEventListener('click',openclose);
 window.addEventListener('resize',function(event){
 	var docwidth = window.innerWidth;
 
-	if(window.innerWidth>700){
+	// if(window.innerWidth>700){
+	if(window.innerWidth>749){
 		cart.style.top = 0;
 
 		cont.style.display = 'block';

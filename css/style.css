@@ -93,7 +93,7 @@ header {
           float: none;
           width: 100px;
           position: relative;
-          left: -135px;
+          left: -40%;
           margin-bottom: 35px; }
           header #header_container nav li#plus a {
             -webkit-box-shadow: inset 0px 0px 7px 0 rgba(159, 206, 203, 0.75);
@@ -235,7 +235,7 @@ footer {
           background: #fff;
           color: #9fcecb; }
 
-@media (min-width: 700px) {
+@media (min-width: 749px) {
   #container {
     max-width: 960px;
     margin: 0 auto; }
@@ -342,5 +342,13 @@ footer {
           padding: 0 3px; }
           footer ul#contact li a {
             font-size: 1.75em; } }
+@media (min-width: 750px) and (max-width: 855px) {
+  header #header_container nav li a {
+    padding: 10px; }
+    header #header_container nav li a.first {
+      width: auto;
+      padding: 10px 10px 10px 20px; }
+  header #header_container div#cart div#checkout a {
+    padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

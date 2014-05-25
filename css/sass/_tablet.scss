@@ -1,0 +1,29 @@
+header{
+
+	#header_container{
+
+		nav{
+
+			li{
+
+				a{
+					padding: 10px;
+
+					&.first{
+						width: auto;
+						padding: 10px 10px 10px 20px;
+					}
+				}
+			}
+		}
+		div#cart{
+
+			div#checkout{
+
+				a{
+					padding: 10px;
+				}
+			}
+		}
+	}
+}
