@@ -12,7 +12,7 @@ window.addEventListener('resize',function(event){
 
 	// if(window.innerWidth>700){
 	if(window.innerWidth>749){
-		cart.style.top = 0;
+		cart.style.top = '0px';
 
 		cont.style.display = 'block';
 		moreless.style.display = 'none';

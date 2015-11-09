@@ -60,7 +60,10 @@ header{
 		#cart{
 			margin-right: 25px;
 			display: inline-block;
-			float: right;
+			vertical-align: top;
+			// float: right;
+			position: absolute;
+			right: 0px;
 			top: 0px;
 			text-align: left;
 		}
