@@ -6,13 +6,15 @@ header{
 
 			li{
 
-				a{
-					padding: 10px;
-
-					&.first{
+				&.first{
+					a{
 						width: auto;
 						padding: 10px 10px 10px 20px;
 					}
+				}
+				a{
+					padding: 10px;
+
 				}
 			}
 		}
